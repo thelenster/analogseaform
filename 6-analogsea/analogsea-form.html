@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="analogsea.css">
+<meta charset="UTF-8">
+<title>Analog Sea Form</title>
+<meta name="Analog Sea Contact Form" content="Let us know how we can help you by filling this short form.">
+<meta name="Keywords" content="analog sea, form,">
+<meta name="author" content="Leno Marin">
+</head>
+
+<body>
+	<img src="images/logo.png" class="logo"> 
+	<form class="signup-form" action="server/send" method="post">
+		<h1>Sign up</h1>
+		<fieldset name="email">
+			<label for="email">Email</label>
+			<input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" name="email" id="email" placeholder="foo@bar.com" required>
+		</fieldset>
+		
+		<fieldset name ="password">
+			<label for="password"> Password</label>
+			<input type="password" name="password" id="password" placeholder="1234Password" required>
+		</fieldset>
+		<button type="submit">Sign up</button>
+		<h4><a href="/forgot-password/new">Forgot password?</a></h4>
+	</form>
+	<div class="signup_login">
+		<h3>Already have an account? <a href="/login">Log In</a></h3>
+	</div>
+</body>
+</html>

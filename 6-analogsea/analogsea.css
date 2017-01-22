@@ -1,0 +1,91 @@
+/* CSS Document */
+
+* {
+	-webkit-box-sizing: border-box-sizing: ;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background-color: #2788C7;
+	padding-top: 75px;
+	font-family: "roboto", helvetica;
+}
+
+
+
+.logo {
+	height: 35px;
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+	
+}
+
+.signup-form{
+	
+	width: 400px;
+	background-color: white;
+	border-radius: 3px;
+	padding: 30px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.signup-form fieldset {
+	padding-left: 0;
+	border: none;
+	
+}
+.signup-form label{
+	display: block;
+	margin-bottom: 15px;
+}
+
+.signup-form input {
+	width: 320px;
+	border: solid 2px lightgray;
+	border-radius: 3px;
+	padding: 15px;
+}
+
+.signup-form placeholder {
+	font-size: 2em;
+}
+
+.signup-form h1 {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+	color:#3E3E3E;
+	padding-bottom: 10px;
+}
+
+.signup-form button {
+	width: 320px;
+	height: 50px;
+	background-color: #35CA5D;
+	border-radius: 3px;
+	border: none;
+	font-size: 1.3em;
+	color: white;
+}
+
+.signup-form button:hover {
+	background-color: darkgreen;
+}
+ /* I added comma after h4 and it applied attributed to all elements.  Without the comma I get a different result.  Why is this again?*/
+
+.signup-form h4, a {
+	font-size: .9em;
+	font-weight: bold;
+	color: gray;
+	text-align: center;	
+}
+
+.signup_login h3, a {
+	color: white;
+	text-align: center;
+	font-size: .9em;
+	
+}
